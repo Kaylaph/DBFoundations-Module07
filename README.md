@@ -1,12 +1,13 @@
-## Welcome to GitHub Pages
+## Introduction
 
+The purpose of this paper is to explain the concepts learned in Module 07 on functions, specifically the 3 types 1) scalar, 2) inline table-value, and 3) multi-statement table-value.
 You can use the [editor on GitHub](https://github.com/Kaylaph/DBFoundations-Module07/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Explain when you would use a SQL UDF.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+SQL functions can either be built-in functions or user defined functions (UDFs). UDFs are custom functions and can be used when built-in functions don’t provide the specific functionality we need. An example of when a UDF would be used is for check constraints, see Figure 1.
 
 ```markdown
 Syntax highlighted code block
@@ -28,10 +29,11 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Explain the differences between Scalar, Inline, and Multi-Statement Functions.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kaylaph/DBFoundations-Module07/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+There are 3 types of UDFs, scalar, inline table-value, and multi-statement table-value. Both inline and multi-statement are table-value meaning they return tables as outputs while scalar functions return a single value. The difference between inline and multi-statement is multi-statement can accept more than one statement. 
+The 3 types also differ in their syntax. For scalar, there needs to be a return/end block and the schema name must be included, see Figure 2a. For inline, there is no return/end block, see Figure 2b. For multi-statement, there needs to be a return/end block, see Figure 2c.
 
-### Support or Contact
+### Summary
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+To recap, Module 07 focuses on the different types of functions and this paper specifically addresses UDFs, when they are used and the different types of UDFs.
