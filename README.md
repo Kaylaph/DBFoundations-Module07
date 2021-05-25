@@ -20,9 +20,11 @@ The 3 types also differ in their syntax. For scalar, there needs to be a return/
 
 *Figure 2a: Scalar function example. Reference: Taken from Module07 demo*
 
+
 ![Figure 2b](https://user-images.githubusercontent.com/84373004/119450367-a153f280-bce8-11eb-943c-9c954886d1cc.png)
 
 *Figure 2b: Inline function example. Reference: Taken from Module07 demo*
+
 
 ![Figure 2c](https://user-images.githubusercontent.com/84373004/119450369-a1ec8900-bce8-11eb-9909-6dcbe6c364d8.png)
 *Figure 2c: Multi-statement function example. Reference: Taken from Module07 demo*
